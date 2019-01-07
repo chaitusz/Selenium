@@ -1,0 +1,8 @@
+2019-01-07 16:01:56 INFO  LoggerTest:25 - Log Test1
+2019-01-07 16:01:56 INFO  LoggerTest:26 - Test2
+2019-01-07 16:01:56 INFO  LoggerTest:27 - Test3
+2019-01-07 16:01:56 INFO  LoggerTest:28 - Test4
+2019-01-07 16:01:532 INFO  LoggerTest:25 - Log Test1
+2019-01-07 16:01:532 INFO  LoggerTest:26 - Test2
+2019-01-07 16:01:532 INFO  LoggerTest:27 - Test3
+2019-01-07 16:01:532 INFO  LoggerTest:28 - Test4

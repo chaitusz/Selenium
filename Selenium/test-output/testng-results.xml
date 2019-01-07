@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="444" started-at="2019-01-07T14:02:24Z" finished-at="2019-01-07T14:02:24Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="444" started-at="2019-01-07T14:02:24Z" finished-at="2019-01-07T14:02:24Z">
+      <class name="logAndReports.ExtentReport">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:logAndReports.ExtentReport@1794d431]" name="beforeClass" is-config="true" duration-ms="354" started-at="2019-01-07T14:02:24Z" finished-at="2019-01-07T14:02:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:logAndReports.ExtentReport@1794d431]" name="beforeMethod" is-config="true" duration-ms="20" started-at="2019-01-07T14:02:24Z" finished-at="2019-01-07T14:02:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void logAndReports.ExtentReport.testLogout()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testLogout()[pri:0, instance:logAndReports.ExtentReport@1794d431]" name="testLogout" duration-ms="10" started-at="2019-01-07T14:02:24Z" finished-at="2019-01-07T14:02:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogout -->
+        <test-method status="FAIL" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:logAndReports.ExtentReport@1794d431]" name="afterMethod" is-config="true" duration-ms="10" started-at="2019-01-07T14:02:24Z" finished-at="2019-01-07T14:02:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLogout status=SUCCESS method=ExtentReport.testLogout()[pri:0, instance:logAndReports.ExtentReport@1794d431] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at java.util.regex.Matcher.getTextLength(Unknown Source)
+at java.util.regex.Matcher.reset(Unknown Source)
+at java.util.regex.Matcher.<init>(Unknown Source)
+at java.util.regex.Pattern.matcher(Unknown Source)
+at com.aventstack.extentreports.utils.ExceptionUtil.getExceptionHeadline(ExceptionUtil.java:25)
+at com.aventstack.extentreports.model.ExceptionInfo.<init>(ExceptionInfo.java:19)
+at com.aventstack.extentreports.ExtentTest.log(ExtentTest.java:405)
+at com.aventstack.extentreports.ExtentTest.log(ExtentTest.java:422)
+at logAndReports.ExtentReport.logReport(ExtentReport.java:71)
+at logAndReports.ExtentReport.afterMethod(ExtentReport.java:56)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="SKIP" signature="afterclass()[pri:0, instance:logAndReports.ExtentReport@1794d431]" name="afterclass" is-config="true" duration-ms="0" started-at="2019-01-07T14:02:24Z" finished-at="2019-01-07T14:02:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+      </class> <!-- logAndReports.ExtentReport -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
